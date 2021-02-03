@@ -12,7 +12,6 @@
 @keyframes move-square {
     0% {
         transform: translateX(0px);
-        transform: scale(1,1);
         background-color: orange;
     }
 
@@ -23,8 +22,6 @@
 
     50% {
         transform: translateX(800px) scale(1,1);
-        height: 200px;
-        width: 200px;
         background-color: orange;
     }
 
